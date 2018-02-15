@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Preference category"
+        tools:title="@string/settings_category_general">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_autoscan"
+            android:summary="@string/settings_autoscan_summary"
+            android:title="@string/settings_autoscan_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_mobiledata"
+            android:summary="@string/settings_mobiledata_summary"
+            android:title="@string/settings_mobiledata_title" />
+    </PreferenceCategory>
+</PreferenceScreen>
